@@ -72,7 +72,7 @@ const Picker: React.FC = () => {
             <>
               <h2 className="text-3xl font-montserrat-800 text-white text-center">
                 How much time do you have?
-              </p>
+              </h2>
               <div className="grid grid-cols-3 gap-6 mt-10">
                 {[ 
                   { label: "Under 1h", value: "under1h", icon: Clock, description: "Perfect for a short break" },
